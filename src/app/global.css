@@ -1,0 +1,270 @@
+/* COLOUR SCHEME */
+/* BAB2A1 Khaki */
+/* 574416 Field Drab */
+/* FFF3E8 Linen  BACKGROUND COLOUR*/
+/* F2A903 Harvest Gold */
+/* 3A3A3A Jet */
+@import url(https://fonts.googleapis.com/css?family=Raleway); /*Titles - Raleway*/
+@import url(https://fonts.googleapis.com/css?family=Ovo); /*Headings - Ovo*/
+@import url(https://fonts.googleapis.com/css?family=Hind+Vadodara); /*Body - Hind Vadodara*/
+
+
+/* ALL STYLING */
+body {
+  background-color: #FFF3E8;
+}
+
+#header{
+    background-color: #3a3a3a;
+    font-family: 'Raleway', sans-serif;
+    color: #F2A903;
+}
+#header > .container > img {
+  width: 100px;
+  height: 100px;
+}
+
+#header > .container > h1 {
+  padding-left: 50px;
+  font-size: 40px;
+}
+
+#header > .container {
+  display: flex;
+}
+
+#dividerSection{
+  height: 10px;
+  background-color: #F2A903;
+  padding: 10 10 10 10;
+}
+
+#dividerHeading {
+  height: 5px;
+  background-color: #BAB2A1;
+  padding: 10 10 10 10;
+}
+
+#smallDivider {
+  height: 5px;
+  background-color: #9b9b9b;
+  padding: 10 10 10 10;
+  width: 200px;
+  justify-self: center;
+  align-self: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Ovo', sans-serif;
+}
+
+h3 {
+  font-family: 'Ovo', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+img {
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: aqua; */
+  display: inline-flex;
+}
+
+#footer > .container > .social > img {
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+}
+
+#footer > .container > .social{
+display: flex;
+}
+
+#footer {
+  background-color: #3a3a3a;
+  color: #F2A903;
+}
+
+/* Home */
+#slideshow {
+  padding: 10px;
+}
+
+
+#intro > h1 {
+  text-align: center;
+}
+
+/* About */
+#aboutIntro {
+  width: auto;
+  height: 400px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#aboutIntro > h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.aboutImages > .row > .col > p {
+  border-style: solid;
+  border-color: #574416;
+  border-width: 0.5px;
+  text-align: center;
+}
+
+/* facilities */
+
+.facilities {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+.facilitiesImages > .row > .col > p {
+  border-style: solid;
+  border-color: #574416;
+  border-width: 0.5px;
+  text-align: center;
+}
+
+/* Courses */
+#coursesIntro {
+  width: auto;
+  height: 70px;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#computingLink {
+  color: #6709ec;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+}
+
+#designLink {
+  color: #6709ec;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  text-align: center;
+}
+
+.ComputingList {
+  list-style:none;
+  font-family: 'Ovo', sans-serif;
+}
+
+.DesignList {
+  list-style:none;
+  font-family: 'Ovo', sans-serif;
+}
+
+/* Resources */
+.resources {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+/* Students */
+.students {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+/* Business */
+.Business > img {
+  width: 100%;
+}
+
+.Business > ul {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+/* Contact */
+.container input {
+  font-size: 1.2rem;
+  margin: 10px 0 10px 0px;
+  border-color: rgb(31, 28, 28);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e8f0fe;
+  align-self: center;
+}
+
+.container > .emailblock, .phoneblock, .nameblock, .messageblock {
+  justify-self: center;
+  align-self: center;
+}
+
+.container textarea {
+  margin: 10px 0 10px 0px;
+  padding: 5px;
+  border-color: rgb(31, 28, 28);
+  border-radius: 5px;
+  background-color: #e8f0fe;
+  font-size: 20px;
+  align-self: center;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.name div {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonblock button {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.buttonblock {
+  justify-self: center;
+  align-self: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+}
+
+#contact > .row > .col {
+  display: inline-flex;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#contact > .row > .col1 {
+  display: inline-flex;
+  flex-direction: column;
+    height: auto;
+    width: 50%;
+    justify-content:center;
+    align-items: center;
+}
+
+/* business */
+.bImage {
+  width:800px;
+}

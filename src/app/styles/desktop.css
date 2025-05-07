@@ -1,0 +1,170 @@
+/* DESKTOP ONLY */
+@media screen and (min-width: 720px) { 
+
+  #smallDivider {
+    height: 5px;
+    background-color: #9b9b9b;
+    padding: 10 10 10 10;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #slideshow {
+    height: 300px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Home */
+  #intro > h1 {
+    text-align: center;
+    font-size: 100px;
+  }
+  font 
+
+  /* About */
+  #aboutIntro {
+    font-size: 30px;
+    width:auto;
+  }
+
+  #aboutIntro > img {
+    width: 968px;
+    height: 450px;
+  }
+  
+  .aboutImages > .row1, .row2 {
+    padding: 10px;
+    height: 300px;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutImages > .row1 > .col {
+      display: inline-flex;
+      height: 300px;
+      width: auto;
+  }
+
+  .aboutImages > .row1 > .spaceCol {
+    width: 150px;
+    height: 100px;
+    background-color: #FFF3E8;
+  }
+  
+  .aboutImages > .row2 {
+    height: 100px;
+  }
+
+  .aboutImages > .row2 > .colT {
+    display: inline-flex;
+    height: auto;
+    width: 300px;
+    border-style: solid;
+    border-color: #F2A903;
+    background-color: #574416;
+    justify-content: center;
+    align-items: center;
+}
+
+  .aboutImages > .row2 > .colT > p {
+    text-align: center;
+    color: #F2A903;
+  }
+
+  .aboutImages > .row2 > .spaceCol {
+    width: 35px;
+    height: 100px;
+    background-color: #FFF3E8;
+  }
+
+
+#Location > .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Location > .address > img {
+  width: 500px;
+  height: 299px;
+  padding-right: 30px;
+}
+#Location > .address > .addressDetails {
+  padding-left: 30px;
+}
+
+/* facilities */
+.facilitiesImages > .row1, .row2 {
+  padding: 10px;
+  height: 300px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facilitiesImages > .row1 > .col {
+    display: inline-flex;
+    height: 300px;
+    width: auto;
+}
+
+.facilitiesImages > .row1 > .spaceCol {
+  width: 150px;
+  height: 100px;
+  background-color: #FFF3E8;
+}
+
+.facilitiesImages > .row2 {
+  height: 100px;
+}
+
+.facilitiesImages > .row2 > .colT {
+  display: inline-flex;
+  height: auto;
+  width: 300px;
+  border-style: solid;
+  border-color: #F2A903;
+  background-color: #574416;
+  justify-content: center;
+  align-items: center;
+}
+
+.facilitiesImages > .row2 > .colT > p {
+  text-align: center;
+  color: #F2A903;
+}
+
+.facilitiesImages > .row2 > .spaceCol {
+  width: 35px;
+  height: 100px;
+  background-color: #FFF3E8;
+}
+
+/* Courses */
+#computingText > img {
+  width: 100%;
+  height: 300px;
+  padding-top: 25px;
+}
+#designText > img {
+  width: 100%;
+  height: 300px;
+  padding-top: 25px;
+}
+
+/* Business */
+.Business > img {
+  width: 100%;
+}
+}

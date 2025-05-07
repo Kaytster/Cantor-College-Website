@@ -1,0 +1,170 @@
+/* MOBILE ONLY */
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Home */
+  #slideshow {
+    height: 100px;
+  }
+
+  #intro > h1 {
+    font-size: 50px;
+  }
+
+  /* About */
+  #aboutIntro {
+    font-size: 20px;
+    width:auto;
+  }
+
+  #aboutIntro > img {
+    width: 369.600px;
+    height: 400px;
+  }
+  
+  .aboutImages > .row1, .row2 {
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutImages > .row1 > .col {
+      display: inline-flex;
+      height: 100px;
+      width: auto;
+  }
+
+  .aboutImages > .row1 > .spaceCol {
+    width: 150px;
+    height: 100px;
+    background-color: #FFF3E8;
+  }
+  
+  .aboutImages > .row2 {
+    height: 100px;
+  }
+
+  .aboutImages > .row2 > .colT {
+    display: inline-flex;
+    height: auto;
+    width: 100px;
+    border-style: solid;
+    border-color: #F2A903;
+    background-color: #574416;
+    justify-content: center;
+    align-items: center;
+}
+
+  .aboutImages > .row2 > .colT > p {
+    text-align: center;
+    font-size: 15px;
+    color: #F2A903;
+  }
+
+  .aboutImages > .row2 > .spaceCol {
+    width: 30px;
+    height: 100px;
+    background-color: #FFF3E8;
+  }
+
+/* #Location > .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#Location > .address > img {
+  width: 369.600px;
+  height: 199px;
+}
+
+/* facilities */
+.facilitiesImages > .row1, .row2 {
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facilitiesImages > .row1 > .col {
+    display: inline-flex;
+    height: 100px;
+    width: auto;
+}
+
+.facilitiesImages > .row1 > .spaceCol {
+  width: 150px;
+  height: 100px;
+  background-color: #FFF3E8;
+}
+
+.facilitiesImages > .row2 {
+  height: 100px;
+}
+
+.facilitiesImages > .row2 > .colT {
+  display: inline-flex;
+  height: auto;
+  width: 100px;
+  border-style: solid;
+  border-color: #F2A903;
+  background-color: #574416;
+  justify-content: center;
+  align-items: center;
+}
+
+.facilitiesImages > .row2 > .colT > p {
+  text-align: center;
+  font-size: 15px;
+  color: #F2A903;
+}
+
+.facilitiesImages > .row2 > .spaceCol {
+  width: 30px;
+  height: 100px;
+  background-color: #FFF3E8;
+}
+
+/* Courses */
+#computingText > img {
+  width: 374px;
+  height: 200px;
+  padding-top: 25px;
+}
+#designText > img {
+  width: 374px;
+  height: 200px;
+  padding-top: 25px;
+}
+
+/* Business */
+.Business > img {
+  width: 100%;
+}
+
+/* contact */
+
+#contact > .row > .col {
+  display: inline-flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#contact > .row > .col1 {
+  display: inline-flex;
+  flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+}
+
+
+}
