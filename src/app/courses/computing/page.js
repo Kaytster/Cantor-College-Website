@@ -1,4 +1,4 @@
-import { fetchComputing } from "@/app/lib/dbComp";
+import { fetchComputing } from "../../lib/dbComp";
 import Link from "next/link";
 export const metadata = {
     title: "Computing Courses",
