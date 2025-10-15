@@ -1,4 +1,4 @@
-import { fetchDesign } from "@/app/lib/dbDes";
+import { fetchDesign } from "../../lib/dbDes";
 import Link from "next/link";
 export const metadata = {
     title: "Design Courses",
