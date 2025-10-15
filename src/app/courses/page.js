@@ -1,4 +1,4 @@
-import "@/app/layout.js";
+import "../layout.js";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
